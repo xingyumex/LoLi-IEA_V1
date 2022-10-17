@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import imageio
 import sys         
-sys.path.append(r'Algorithm Ver 1\ColorSpace') 
+sys.path.append(r'Algorithms') 
 from ColorSpace   import colorSpace       as cp
 import matplotlib.pyplot as plt
 
@@ -11,8 +11,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-RGBlowTrain  = np.load('low.npy', allow_pickle='TRUE')[1]
-RGBhighTrain = np.load('high.npy', allow_pickle='TRUE')[1]
+RGBlowTrain  = np.load('./ImageVector/low.npy', allow_pickle='TRUE')[1]
+RGBhighTrain = np.load('./ImageVector/high.npy', allow_pickle='TRUE')[1]
 
 rows, columns, dimension = RGBlowTrain.shape
 

@@ -1,6 +1,6 @@
 import numpy as np
 import sys         
-sys.path.append(r'Algorithm Ver 1\ColorSpace') 
+sys.path.append(r'Algorithms') 
 from ColorSpace   import colorSpace       as cp
 import matplotlib.pyplot as plt
 
